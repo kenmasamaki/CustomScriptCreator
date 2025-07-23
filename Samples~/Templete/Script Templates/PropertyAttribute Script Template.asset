@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05eb5599f9bb1fb47860bbf97ac22520, type: 3}
+  m_Name: PropertyAttribute Script Template
+  m_EditorClassIdentifier: 
+  templateName: PropertyAttribute
+  templateBody: "\uFEFFusing System.Collections;\r\nusing System.Collections.Generic;\r\nusing
+    UnityEngine;\r\nusing System;\r\n\r\n#if UNITY_EDITOR\r\nusing UnityEditor;\r\n#endif\r\n\r\r\n[AttributeUsage(AttributeTargets.Field)]\r\npublic
+    class #CLASSNAME# : #BASECLASS#\r\n{\r\n}\r\n\r\n\n#if UNITY_EDITOR\r\n\r\n[CustomPropertyDrawer(typeof(#CLASSNAME#))]\r\npublic
+    class #CLASSNAME#Drawer : PropertyDrawer\r\n{\r\n    public override void OnGUI(Rect
+    position, SerializedProperty property, GUIContent label)\r\n    {\r\n      \r\n   
+    }\r\n}\r\n#endif"
