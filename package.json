@@ -1,0 +1,16 @@
+﻿{
+	"name": "com.kenmasamaki.customscriptcreator",
+	"displayName": "CustomScriptCreator",
+	"version": "1.0.0",
+	"description": "CustomScriptCreatorは、Unityエディタ上で新しいC#スクリプトを簡単に作成できるエディタ拡張です。クラス名や継承する基底クラス、テンプレートを選択して、プロジェクトに合わせたスクリプトを素早く生成できます。ベースクラスの選択肢やテンプレートはカスタマイズ可能で、効率的かつ統一的なスクリプト作成をサポートします。",
+	"author": {
+		"name": "Tsujiken"
+	},
+	"samples": [
+		{
+			"displayName": "Templete",
+			"description": "CustomScriptCreatorの機能をすぐに体験できるテンプレート例です。インストールすることで、スクリプト作成の流れやカスタマイズ方法を簡単に確認できます。",
+			"path": "Samples~/Templete"
+		}
+	]
+}
